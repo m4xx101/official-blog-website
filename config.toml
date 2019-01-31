@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "/"
 languageCode = "en-us"
 title = "Blog-m4xx"
 theme = "hello-friend"
@@ -35,6 +35,6 @@ paginate = 5
 
 [languages]
   [languages.en]
-    writtenBy = "Written by m4xx"
+    writtenBy = "Written by"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
