@@ -1,7 +1,7 @@
 +++
 title = ""
 date = ""
-author = "m4xx.!"
+author = ".!"
 cover = ""
 description = ""
 draft = false
