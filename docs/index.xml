@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog-m4xx</title>
+    <link>/</link>
+    <description>Recent content on Blog-m4xx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there 🔗 My name is 👤Deepak Mistry and I&amp;rsquo;m the author of this website and also Certified Ethical Hacker also Pentester and also Coder and also &amp;hellip;. 😅 🙄That&amp;rsquo;s it.
+Area Of Interest:
+ Red-Teaming.🛑 System Hacking.🖥 Social Engineering.🧸 Web-app Pentesting.🌐 Reverse Engineering.🔄 Malware analysis.🔍 Vulnerability Assessment.📝 Penetration Testing.😈  Languages:
+ Engilsh Hindi Marathi Gujarati Shell Scripting. PHP. Python. C#.Net Java. js lol.!! :P  Damn That too much!</description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>/post/first-post/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description> Told You Nothing&amp;rsquo;s there.!!  Anyway
+just wait more, is about to comming&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..
+ </description>
+    </item>
+    
+    <item>
+      <title>Hello Friend</title>
+      <link>/proj/1/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/proj/1/</guid>
+      <description> Told You Nothing&amp;rsquo;s there.!!  Anyway
+just wait, more is about to comming&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;..
+ </description>
+    </item>
+    
+    <item>
+      <title>Shell Script Tutorials</title>
+      <link>/tuts/shell_script/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tuts/shell_script/</guid>
+      <description>Shell Scripting - For Beginners #!/bin/bash echo &amp;quot; _____ _ _ _____ _ | ___(_) | ___ | ____|_ __ ___ _ __ _ _ _ __ | |_ ___ _ __ | |_ | | |/ _ \ | _| | &#39;_ \ / __| &#39;__| | | | &#39;_ \| __/ _ \ &#39;__| | _| | | | __/ | |___| | | | (__| | | |_| | |_) | || __/ | |_| |_|_|\___| |_____|_| |_|\___|_| \__, | .</description>
+    </item>
+    
+  </channel>
+</rss>
