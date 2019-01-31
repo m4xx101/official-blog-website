@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://m4xx101.github.io/official-blog-website/"
 languageCode = "en-us"
 title = "Blog-m4xx"
 theme = "hello-friend"
@@ -10,7 +10,7 @@ paginate = 5
   contentTypeName = "post"
   subtitle = ""
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
 
 [params.logo]
   logoText = "hello friend"

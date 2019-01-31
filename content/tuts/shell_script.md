@@ -1,12 +1,86 @@
 +++
-title = "Shell Script Tutorials"
+title = "Shell Script Tutorial"
 date = "2019-01-31"
-author = "m4xx.!"
+author = ".!"
 cover = "shell_post.png"
 description = "Tut 1"
 +++
 
-## Shell Scripting - For Beginners
+# Shell Scripting
+
+## File Encryption & Decryption Program
+
+### This is simple program made by me for encrypting & decrypting the files
+
+This is a quick tutorial on shell scripting so won't go in deep about every concepts but the over view and little bit of explaination.
+
+#### Let's get started.!
+
+Alright the first line in the Shell script is called **sha-bang** that is nothing but
+
+>**#!**
+
+anyway we aren't here to discuss about sha-band lol.!
+
+I'm putting wiki link so you can read  about it in detail.
+
+<a href="https://en.wikipedia.org/wiki/Shebang_(Unix)#Purpose" target="_blank">*I'm the wiki link he was talking about*</a>
+
+File extension of Shell scripts are
+
+>**.sh**
+
+Now going furthur,
+
+Just about every programming language in existence has the concept of variables - a symbolic name for a chunk of memory to which we can assign values, read and manipulate its contents.
+
+Almost in every programming language variables are declared as
+
+>VAR_NAME = "Here comes value of the variable"
+
+Also in shell script we declare variables Like that.
+
+Now secondly,
+
+>"echo" (without quotes) is use for printing output to the screen short of a "print" command like any other programming language.
+
+To take input from user we use *"read"* command in shell scripting,
+
+>read VAR_NAME
+
+Now after taking input if we want to access the value of that variable which was given by user, we use "$" (Dollar Sign befor the Variable name) i.e,
+
+>$VAR_NAME  - Like this
+
+Now if we want to print the value which user had given we'll use
+
+>echo $VAR_NAME
+
+and we all know about if else condition, aren't we.?
+if NO here is sample program for if else condition
+
+```sh
+if [ expression ]
+then
+   Statement(s) to be executed if expression is true
+else
+   Statement(s) to be executed if expression is not true
+fi
+```
+
+#### Little bit about Cryptography
+
+We are going to use GPG (GNU Privacy Guard) which is free encryption software that's compliant with the OpenPGP (RFC4880) standard. Using GPG you can encrypt (and decrypt) files that contain sensitive data, such as protected health information (PHI) regulated by the Health Insurance Portability and Accountability Act (HIPAA) privacy and security rules. For more on GPG, see the GNU Privacy Guard website. 
+
+For more visit this link
+
+<a href="https://kb.iu.edu/d/awio" target="_blank">GPG</a>
+
+
+### Now putting this all together we can create following program :
+
+
+
 
 ```sh
 #!/bin/bash
@@ -90,8 +164,17 @@ do
 done
 
 ```
-This is simple file encryption program made by me.
+
 
 >Github Link for following program is given below
 
 [Link](https://github.com/m4xx101/Shell-Script)
+
+*Note:- if you're using this website at night or in dark room there's one toggle on the top right-hand side for dark mode.!
+
+
+Happy Hacking :)
+
+This is m4xX.!
+
+
