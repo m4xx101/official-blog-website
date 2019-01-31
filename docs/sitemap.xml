@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://m4xx101.github.io/official-blog-website/post/first-post/</loc>
-    <lastmod>2019-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://m4xx101.github.io/official-blog-website/proj/1/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url>
@@ -30,12 +25,6 @@
   
   <url>
     <loc>https://m4xx101.github.io/official-blog-website/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://m4xx101.github.io/official-blog-website/post/</loc>
-    <lastmod>2019-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

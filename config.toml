@@ -2,6 +2,7 @@ baseurl = "https://m4xx101.github.io/official-blog-website/"
 languageCode = "en-us"
 title = "Blog-m4xx"
 theme = "hello-friend"
+publishDir = "docs"
 copyright = ""
 paginate = 5
 

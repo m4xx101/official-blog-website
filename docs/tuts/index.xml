@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>Shell Script Tutorials</title>
+      <title>Shell Script Tutorial</title>
       <link>https://m4xx101.github.io/official-blog-website/tuts/shell_script/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://m4xx101.github.io/official-blog-website/tuts/shell_script/</guid>
-      <description>Shell Scripting - For Beginners #!/bin/bash echo &amp;quot; _____ _ _ _____ _ | ___(_) | ___ | ____|_ __ ___ _ __ _ _ _ __ | |_ ___ _ __ | |_ | | |/ _ \ | _| | &#39;_ \ / __| &#39;__| | | | &#39;_ \| __/ _ \ &#39;__| | _| | | | __/ | |___| | | | (__| | | |_| | |_) | || __/ | |_| |_|_|\___| |_____|_| |_|\___|_| \__, | .</description>
+      <description>Shell Scripting File Encryption &amp;amp; Decryption Program This is simple program made by me for encrypting &amp;amp; decrypting the files This is a quick tutorial on shell scripting so won&amp;rsquo;t go in deep about every concepts but the over view and little bit of explaination.
+Let&amp;rsquo;s get started.! Alright the first line in the Shell script is called sha-bang that is nothing but
+ #!
+ anyway we aren&amp;rsquo;t here to discuss about sha-band lol.</description>
     </item>
     
   </channel>
