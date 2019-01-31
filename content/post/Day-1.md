@@ -57,9 +57,8 @@ And after this i found one good advice about Bug Bounty is :
 
 Well That's it.!
 
-I was really busy in making and deploying of this website i took me whole day to make and deploy this website on github phew.!!,
-But yeah it's finally up and running.! 
+I was really busy in making and deploying of this website it took me whole day to make and deploy this website on github that's why didn't got time do learn more stuff but yeah phew.!!,the website is finally up and running.! 
 
-Here is the gif expressing my feeling when website was finally/ successfully/ Magically/ I don't know why wtfly.!!! up & running.
+*le Here is the gif expressing my feeling when website was finally/ successfully/ Magically/ I don't know why wtfly.!!! up & running.
 
 <iframe src="https://giphy.com/embed/l46CkATpdyLwLI7vi" width="480" height="361" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yosub-birthday-l46CkATpdyLwLI7vi">via GIPHY</a></p>
