@@ -8,7 +8,7 @@ draft = false
 +++
 
 ## Welcome back to my website guys,
- So, Today we'll talk about instagram hacking I'll show you some of the techniques which i use for hacking Instagram accounts,,,,,
+ So, Today we'll talk about Instagram hacking I'll show you some of the techniques which I use for hacking Instagram accounts,,,,,
 
 Yo, Yo, Yo.!! Hold on.!! Take it easy I do stuff ethically with the permission of my friends or siblings, just to show them how easy it is to hack into their insta account.
 
@@ -16,15 +16,15 @@ Yo, Yo, Yo.!! Hold on.!! Take it easy I do stuff ethically with the permission o
 ```
 All data and information provided on this website is for informational & Educational purposes only. This Website reserves the right to make changes in the policy of this blog anytime and without prior notice.
 
-I will not be responsible for any action performed by any reader. I mostly  focus on Programming, Tutorials, Security Guide, Pentesting tutorials and Ethical hacking. If you planned to use the content for illegal purpose, please leave this site immediately.
+I will not be responsible for any action performed by any reader. I mostly focus on Programming, Tutorials, Security Guide, Pentesting tutorials and Ethical hacking. If you planned to use the content for an illegal purpose, please leave this site immediately.
 ```
 
 ### Alright, Let's Get started.!
 
-There are many technique is available for instagram hacking, today in this blog we are going to talk about mainly 2 types of Techniques which i use to performe pentest against accounts
+There are many techniques is available for Instagram hacking, today in this blog we are going to talk about mainly 2 types of Techniques which I use to perform pentest against accounts
 
 - Phishing
-- Bruteforcing or Dictionery attack
+- Bruteforcing or Dictionary attack
 
 # Phishing :
 
@@ -32,9 +32,9 @@ There are many technique is available for instagram hacking, today in this blog 
 
 Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers. It occurs when an attacker, masquerading as a trusted entity, dupes a victim into opening an email, instant message, or text message. The recipient is then tricked into clicking a malicious link, which can lead to the installation of malware, the freezing of the system as part of a ransomware attack or the revealing of sensitive information.
 
-An attack can have devastating results. For individuals, this includes unauthorized purchases, the stealing of funds, or identify theft. 
+An attack can have devastating results. For individuals, this includes unauthorized purchases, the stealing of funds, or identity theft. 
 
-Alright, now so we know what exactly phishing is we can proceed furthur how we can achieve phising.
+Alright, now so we know what exactly phishing is we can proceed further how we can achieve phising.
 
 ### Prerequsistes For this attack :
 
@@ -48,15 +48,15 @@ Now first of all boot up your kali and update the repo:
 sudo apt-get update && dis_upgarde -y
 ```
 
-Check if you have SEToolkit installed by typing *"setoolkit"* inside the terminal if it's there it'll load up the setoolit or else you have to install it i've given link above go and check that out or simply type this command in terminal :
+Check if you have SEToolkit installed by typing *"setoolkit"* inside the terminal if it's there it'll load up the setoolkit or else you have to install it I've given link above go and check that out or simply type this command in terminal :
 
 ```shell
 sudo apt install setoolkit -y
 ```
-There after you've to install ngrok in system download it from here :
+Thereafter you've to install ngrok in system download it from here :
 https://ngrok.com/download
 
->*Note: ngrok is alternative to port forwarding method, it automatically do all the things for us to setup port forwrding.!
+>*Note: ngrok is an alternative to port forwarding method, it automatically do all the things for us to setup port forwarding.!
 
 #### Process for setting up your ngrok :
 
@@ -70,9 +70,9 @@ unzip /path/to/ngrok.zip
 
 Most people like to keep ngrok in their primary user folder or set an alias for easy command-line access. 
 
-- Connect you're account :
+- Connect your account :
   
-Running this command will add your authtoken to your ngrok.yml file. Connecting an account will list your open tunnels in the dashboard,give you longer tunnel timeouts, and more. Visit the dashboard to get your auth token. 
+Running this command will add your authtoken to your ngrok.yml file. Connecting an account will list your open tunnels in the dashboard, give you longer tunnel timeouts, and more. Visit the dashboard to get your auth token. 
 
 ```shell
 ./ngrok authtoken <YOUR_AUTH_TOKEN>
@@ -214,7 +214,7 @@ Connections                   ttl     opn     rt1     rt5     p50     p90
                                                                             
 ```
 
-Now two things you can do either get the IP address of following tunneled which is redirecting traffic to our localhots port 80, get ip by copy pasting the URL "*http://feb91dce.ngrok.io*" in terminal with ping command (without specifing protocol - https ):
+Now two things you can do either get the IP address of following tunneled which is redirecting traffic to our localhots port 80, get ip by copy-pasting the URL "*http://feb91dce.ngrok.io*" in the terminal with ping command (without specifing protocol - https ):
 
 ```shell
 root@m4xx:~# ping feb91dce.ngrok.io
@@ -244,26 +244,26 @@ set:webattack> IP address for the
  set:webattack> Enter the url to clone:https://www.instagrame.com/
  ```
 
- You can do it with any website you want to Harvester Credential.!But on your risk as you read the Disclaimer above :P
+ You can do it with any website you want to Harvester Credential.! But on your risk, as you read the Disclaimer above :P
 
- Now Frome here SEToolkit automatcally starts apache serive for you and setup the whole webiste and host it on your local machine and with ngrok you have setup the port forwrding "Hurray.!!!!!"
+ Now Frome here SEToolkit automatically starts apache service for you and setup the whole website and host it on your local machine and with ngrok you have setup the port forwarding "Hurray.!!!!!"
 
- Now send the website to the victime i.e (http://feb91dce.ngrok.io)
- and use the social engineering you can also shorten the url and customize it to some intersting offers once user click to that link it'll take them to our phishing page which exactly looks like Original one and after user logged in you can see the password in setoolkit terminal
+ Now send the website to the victims i.e (http://feb91dce.ngrok.io)
+ and use the social engineering you can also shorten the url and customize it to some interesting offers once user click to that link it'll take them to our phishing page which exactly looks like Original one and after user logged in you can see the password in setoolkit terminal
 
 
 
-# Bruteforcing / Dictionery attack :
+# Bruteforcing / Dictionary attack :
 
 For this you have to download one program: 
-This program will brute force any Instagram account you send it its way. Just give it a target, a password list and a mode then press enter and forget about it. No need to worry about anonymity when using this program, its highest priority is your anonymity,it only attacks when your identity is hidden. 
+This program will brute force any Instagram account you send it it's way. Just give it a target, a password list and a mode then press enter and forget about it. No need to worry about anonymity when using this program, its highest priority is your anonymity,it only attacks when your identity is hidden. 
 
-Git clone it by typing command inside terminal :
+Git clone it by typing command inside the terminal :
 
 ```shell
 git clone https://github.com/m4xx101/Brutestagram.git
 ```
-This programm is one of the best tool ik have weaked little bit to make it more effcient originally its written by *Mohamed*
+This program is one of the best tool I know have tweaked a little bit to make it more efficient originally its written by *Mohamed*
 
 ### Usage :
 
@@ -278,13 +278,13 @@ python instagram.py <username> <wordlist> -m <mode>
  git clone https://github.com/Mebus/cupp.git
  ```
 
- Awsome tool written by Mebus.!
+ An awsome tool written by Mebus.!
 
- I've been working on my own wordlist generator tool, I'll post it soon on github and also on the website too, once it get completed, there are some features which are missing or we can say to make wordlist generation more efficient :) so stay tunned.!
+ I've been working on my own wordlist generator tool, I'll post it soon on GitHub and also on the website too, once it gets completed, there are some features which are missing or we can say to make wordlist generation more efficient :) so stay tuned.!
 
  Yeah and one more thing is you can use any wordlist generator of your wish for this.
 
- Once you have done with creating wordlist you can fire up tool it'll check all the password in the list and will stop immidiatly after correct password is found.
+ Once you have done with creating wordlist you can fire up tool it'll check all the password in the list and will stop immediately after correct password is found.
 
  Examle :
 
@@ -306,14 +306,14 @@ root@m4xx:~# python instagram.py 1_M4Xx_0 /root/Desktop/mywordlist.txt
 
 ## Conclusion :
 
-What I think is Phishing would be more easy techniqe for getting password because we have many options for performing social engineering but gussing password is gonna be little difficult for us not impossible though.
+What I think is Phishing would be more easy techniques for getting password because we have many options for performing social engineering but guessing password is gonna be little difficult for us not impossible though.
 
 Again I will not be responsible for any illegal action performed by you.! This is only for Educational purposes only.
 
 
-###### if you've read the whole artical "bass aab rulayega kya pagle.!😢 Thank you so much :).! plese share this website with everyone and more is about to comming.!"
+###### if you've read the whole article "bass aab rulayega kya pagle.!😢 Thank you so much :).! please share this website with everyone and more is about to coming.!"
 
 
-##### Here's the GIF which explain my feeling when i finally got my friends password.!
+##### Here's the GIF which explains my feeling when I finally got my friends password.!
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/A9grgCQ0Dm012" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/jim-carrey-power-bruce-almighty-A9grgCQ0Dm012">via GIPHY</a></p>
