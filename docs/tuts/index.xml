@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tuts on Blog-m4xx</title>
+    <link>https://m4xx101.github.io/official-blog-website/tuts/</link>
+    <description>Recent content in Tuts on Blog-m4xx</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://m4xx101.github.io/official-blog-website/tuts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shell Script Tutorial</title>
+      <link>https://m4xx101.github.io/official-blog-website/tuts/shell_script/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://m4xx101.github.io/official-blog-website/tuts/shell_script/</guid>
+      <description>Shell Scripting File Encryption &amp;amp; Decryption Program This is simple program made by me for encrypting &amp;amp; decrypting the files This is a quick tutorial on shell scripting so won&amp;rsquo;t go in deep about every concepts but the over view and little bit of explaination.
+Let&amp;rsquo;s get started.! Alright the first line in the Shell script is called sha-bang that is nothing but
+ #!
+ anyway we aren&amp;rsquo;t here to discuss about sha-band lol.</description>
+    </item>
+    
+  </channel>
+</rss>
