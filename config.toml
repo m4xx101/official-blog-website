@@ -11,7 +11,7 @@ paginate = 5
   contentTypeName = "post"
   subtitle = ""
   # "light" or "dark"
-  defaultTheme = "light"
+  defaultTheme = "dark"
 
 [params.logo]
   logoText = "hello friend"
@@ -33,6 +33,10 @@ paginate = 5
     identifier = "about"
     name = "About"
     url = "/about"
+ [[menu.main]]
+    identifier = "CORS"
+    name = "CORS"
+    url = "/CORS-exploit"
 
 [languages]
   [languages.en]

