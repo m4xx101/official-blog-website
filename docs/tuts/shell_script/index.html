@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Shell Script Tutorial :: Blog-m4xx</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Shell Scripting File Encryption &amp;amp; Decryption Program This is simple program made by me for encrypting &amp;amp; decrypting the files This is a quick tutorial on shell scripting so won&amp;rsquo;t go in deep about every concepts but the over view and little bit of explaination.
+Let&amp;rsquo;s get started.! Alright the first line in the Shell script is called sha-bang that is nothing but
+ #!
+ anyway we aren&amp;rsquo;t here to discuss about sha-band lol."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://m4xx101.github.io/official-blog-website/tuts/shell_script/" />
+
+
+<link rel="stylesheet" href="https://m4xx101.github.io/official-blog-website/assets/style.css">
+
+
+<link rel="stylesheet" href="https://m4xx101.github.io/official-blog-website/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://m4xx101.github.io/official-blog-website/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://m4xx101.github.io/official-blog-website/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Shell Script Tutorial :: Blog-m4xx — " />
+<meta name="twitter:description" content="Shell Scripting File Encryption &amp;amp; Decryption Program This is simple program made by me for encrypting &amp;amp; decrypting the files This is a quick tutorial on shell scripting so won&amp;rsquo;t go in deep about every concepts but the over view and little bit of explaination.
+Let&amp;rsquo;s get started.! Alright the first line in the Shell script is called sha-bang that is nothing but
+ #!
+ anyway we aren&amp;rsquo;t here to discuss about sha-band lol." />
+<meta name="twitter:site" content="https://m4xx101.github.io/official-blog-website/" />
+<meta name="twitter:creator" content=".!" />
+<meta name="twitter:image" content="https://m4xx101.github.io/official-blog-website/img/shell_post.png">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Shell Script Tutorial :: Blog-m4xx — ">
+<meta property="og:description" content="Shell Scripting File Encryption &amp;amp; Decryption Program This is simple program made by me for encrypting &amp;amp; decrypting the files This is a quick tutorial on shell scripting so won&amp;rsquo;t go in deep about every concepts but the over view and little bit of explaination.
+Let&amp;rsquo;s get started.! Alright the first line in the Shell script is called sha-bang that is nothing but
+ #!
+ anyway we aren&amp;rsquo;t here to discuss about sha-band lol." />
+<meta property="og:url" content="https://m4xx101.github.io/official-blog-website/tuts/shell_script/" />
+<meta property="og:site_name" content="Shell Script Tutorial" />
+<meta property="og:image" content="https://m4xx101.github.io/official-blog-website/img/shell_post.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2019-01-31 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="https://m4xx101.github.io/official-blog-website/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark">></span>
+    <span class="logo__text">hello friend</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner">
+    
+      <li><a href="/official-blog-website/about">About</a></li>
+    
+      <li><a href="/official-blog-website/cors">CORS</a></li>
+    
+      <li><a href="/official-blog-website/proj/1">Projects</a></li>
+    
+      <li><a href="/official-blog-website/tuts/shell_script">Tutorials</a></li>
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="https://m4xx101.github.io/official-blog-website/tuts/shell_script/">Shell Script Tutorial</a></h2>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-01-31
+      </span>
+      <span class="post-author">Written by m4xx .!</span>
+    </div>
+
+    
+
+    
+      <img src="https://m4xx101.github.io/official-blog-website/img/shell_post.png" class="post-cover" />
+    
+
+    <div class="post-content">
+      
+
+<h1 id="shell-scripting">Shell Scripting</h1>
+
+<h2 id="file-encryption-decryption-program">File Encryption &amp; Decryption Program</h2>
+
+<h3 id="this-is-simple-program-made-by-me-for-encrypting-decrypting-the-files">This is simple program made by me for encrypting &amp; decrypting the files</h3>
+
+<p>This is a quick tutorial on shell scripting so won&rsquo;t go in deep about every concepts but the over view and little bit of explaination.</p>
+
+<h4 id="let-s-get-started">Let&rsquo;s get started.!</h4>
+
+<p>Alright the first line in the Shell script is called <strong>sha-bang</strong> that is nothing but</p>
+
+<blockquote>
+<p><strong>#!</strong></p>
+</blockquote>
+
+<p>anyway we aren&rsquo;t here to discuss about sha-band lol.!</p>
+
+<p>I&rsquo;m putting wiki link so you can read  about it in detail.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Shebang_(Unix)#Purpose" target="_blank"><em>I&rsquo;m the wiki link he was talking about</em></a></p>
+
+<p>File extension of Shell scripts are</p>
+
+<blockquote>
+<p><strong>.sh</strong></p>
+</blockquote>
+
+<p>Now going furthur,</p>
+
+<p>Just about every programming language in existence has the concept of variables - a symbolic name for a chunk of memory to which we can assign values, read and manipulate its contents.</p>
+
+<p>Almost in every programming language variables are declared as</p>
+
+<blockquote>
+<p>VAR_NAME = &ldquo;Here comes value of the variable&rdquo;</p>
+</blockquote>
+
+<p>Also in shell script we declare variables Like that.</p>
+
+<p>Now secondly,</p>
+
+<blockquote>
+<p>&ldquo;echo&rdquo; (without quotes) is use for printing output to the screen short of a &ldquo;print&rdquo; command like any other programming language.</p>
+</blockquote>
+
+<p>To take input from user we use <em>&ldquo;read&rdquo;</em> command in shell scripting,</p>
+
+<blockquote>
+<p>read VAR_NAME</p>
+</blockquote>
+
+<p>Now after taking input if we want to access the value of that variable which was given by user, we use &ldquo;$&rdquo; (Dollar Sign befor the Variable name) i.e,</p>
+
+<blockquote>
+<p>$VAR_NAME  - Like this</p>
+</blockquote>
+
+<p>Now if we want to print the value which user had given we&rsquo;ll use</p>
+
+<blockquote>
+<p>echo $VAR_NAME</p>
+</blockquote>
+
+<p>and we all know about if else condition, aren&rsquo;t we.?
+if NO here is sample program for if else condition</p>
+
+<pre><code class="language-sh">if [ expression ]
+then
+   Statement(s) to be executed if expression is true
+else
+   Statement(s) to be executed if expression is not true
+fi
+</code></pre>
+
+<h4 id="little-bit-about-cryptography">Little bit about Cryptography</h4>
+
+<p>We are going to use GPG (GNU Privacy Guard) which is free encryption software that&rsquo;s compliant with the OpenPGP (RFC4880) standard. Using GPG you can encrypt (and decrypt) files that contain sensitive data, such as protected health information (PHI) regulated by the Health Insurance Portability and Accountability Act (HIPAA) privacy and security rules. For more on GPG, see the GNU Privacy Guard website.</p>
+
+<p>For more visit this link</p>
+
+<p><a href="https://kb.iu.edu/d/awio" target="_blank">GPG</a></p>
+
+<h3 id="now-putting-this-all-together-we-can-create-following-program">Now putting this all together we can create following program :</h3>
+
+<pre><code class="language-sh">#!/bin/bash
+
+echo &quot;
+ _____ _ _        _____                             _            
+|  ___(_) | ___  | ____|_ __   ___ _ __ _   _ _ __ | |_ ___ _ __ 
+| |_  | | |/ _ \ |  _| | '_ \ / __| '__| | | | '_ \| __/ _ \ '__|
+|  _| | | |  __/ | |___| | | | (__| |  | |_| | |_) | ||  __/ |   
+|_|   |_|_|\___| |_____|_| |_|\___|_|   \__, | .__/ \__\___|_|   
+                                        |___/|_|               
+By:m4xX.!
+&quot;
+echo &quot;version 1.2.0 by m4xX&quot;
+
+function list_dir_enc(){
+
+
+	if [[ $file_encrypt = &quot;ls&quot; ]]; then
+		ls -la --color
+		echo &quot;&quot;
+		Encrypt_file
+		echo &quot;&quot;
+	elif [[ $file_encrypt = &quot;exit&quot; ]]; then
+			exit
+	
+	fi
+}
+
+function list_dir_dec(){
+
+
+	if [[ $file_decrypt = &quot;ls&quot; ]]; then
+		ls -la --color
+		echo &quot;&quot;
+		Decrypt_file
+		echo &quot;&quot;
+	elif [[ $file_decrypt = &quot;exit&quot; ]]; then
+			exit
+	
+	fi
+}
+function Encrypt_file(){
+
+	echo &quot;&quot;
+	echo &quot;Enter File Name to Encrypt: &quot;
+	read  file_encrypt;
+	list_dir_enc
+	#cp $file_encrypt /root/Desktop/backup_$file_encrypt
+	gpg -c $file_encrypt
+	echo &quot;Done.!&quot;
+	rm -r $file_encrypt
+	exit
+}
+function Decrypt_file(){
+	echo &quot;&quot;
+	echo &quot;Enter File Name to Decrypt: &quot;
+	read file_decrypt;
+	list_dir_dec
+	gpg $file_decrypt
+	#cp /root/Desktop/backup_$file_encrypt ./$file_encrypt
+	echo &quot;Done.!&quot;
+	rm -r $file_decrypt
+	exit
+}
+choose=&quot;Encrypt Decrypt&quot;
+
+select opt in $choose;
+do
+	if [[ $REPLY = 1 || $REPLY = &quot;Encrypt&quot; || $REPLY = &quot;encrypt&quot; || $REPLY = &quot;ENCRYPT&quot; ]]; then
+		Encrypt_file
+		
+	elif [[ $REPLY = 2 || $REPLY = &quot;Decrypt&quot; || $REPLY = &quot;decrypt&quot; || $REPLY = &quot;DECRYPT&quot; ]]; then
+		
+		Decrypt_file
+
+	else
+		echo &quot;Invalid Input.!&quot;
+		
+	fi
+done
+
+</code></pre>
+
+<blockquote>
+<p>Github Link for following program is given below</p>
+</blockquote>
+
+<p><a href="https://github.com/m4xx101/Shell-Script">Link</a></p>
+
+<p>*Note:- if you&rsquo;re using this website at night or in dark room there&rsquo;s one toggle on the top right-hand side for dark mode.!</p>
+
+<p>Happy Hacking :)</p>
+
+<p>This is m4xX.!</p>
+
+    </div>
+    
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="https://m4xx101.github.io/official-blog-website/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark">></span>
+    <span class="logo__text">hello friend</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>Author <a href="https://twitter.com/Deepak_maxx">m4xx</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://m4xx101.github.io/official-blog-website/assets/main.js"></script>
+<script src="https://m4xx101.github.io/official-blog-website/assets/prism.js"></script>
+
+  
+</div>
+
+</body>
+</html>
