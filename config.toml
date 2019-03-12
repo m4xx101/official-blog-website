@@ -34,9 +34,9 @@ paginate = 5
     name = "About"
     url = "/about"
  [[menu.main]]
-    identifier = "CORS"
+    identifier = "cors"
     name = "CORS"
-    url = "/CORS-exploit"
+    url = "/cors"
 
 [languages]
   [languages.en]
